@@ -35,3 +35,5 @@ venv.bak/
 *.swp
 *.swo
 *~ 
+
+./examples/results/*
