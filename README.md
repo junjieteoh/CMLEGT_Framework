@@ -2,6 +2,13 @@
 
 A framework for studying strategic interactions in collaborative machine learning systems using Evolutionary Game Theory (EGT).
 
+## Requirements
+
+- **Python 3.11** (required, will not work with Python 3.13+)
+- **NumPy < 2.0** (required, PyTorch is not compatible with NumPy 2.x)
+- PyTorch 2.x
+- Other dependencies listed in requirements.txt
+
 ## Overview
 
 This project provides tools to model, simulate, and analyze the behavior of participants in collaborative machine learning settings such as federated learning. It uses evolutionary game theory to understand how different incentive mechanisms affect participants' strategies over time.

@@ -1,4 +1,4 @@
-.PHONY: install run-basic run-ml run-collab run-multi run-scenario test clean
+.PHONY: install run-basic run-ml run-collab run-multi run-scenario test clean clean-results
 
 # Install dependencies
 install:
@@ -42,3 +42,13 @@ clean:
 	find . -type d -name "__pycache__" -exec rm -rf {} +
 	find . -type d -name ".ipynb_checkpoints" -exec rm -rf {} +
 	find . -type f -name "*.pyc" -delete 
+
+# Clean up results from previous runs
+clean-results:
+	@echo "Removing all results from ./examples/results"
+	@if [ -d "./examples/results" ]; then \
+		rm -rf ./examples/results/*; \
+		echo "Results directory cleaned."; \
+	else \
+		echo "Results directory does not exist."; \
+	fi 

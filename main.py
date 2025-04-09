@@ -2,9 +2,19 @@
 Main entry point for the EGT Framework for Collaborative Machine Learning.
 """
 
+import sys
 import matplotlib.pyplot as plt
 import numpy as np
 import time
+
+# Check Python version - the framework requires Python 3.11
+if sys.version_info.major != 3 or sys.version_info.minor != 11:
+    print(f"Error: This framework requires Python 3.11")
+    print(f"Current Python version: {sys.version_info.major}.{sys.version_info.minor}")
+    print("Please use the fyp-py311 conda environment:")
+    print("    conda activate fyp-py311")
+    print("Or run using the provided script: ./run.sh")
+    sys.exit(1)
 
 # Import for backwards compatibility
 from .registry.experiment import ExperimentBuilder
