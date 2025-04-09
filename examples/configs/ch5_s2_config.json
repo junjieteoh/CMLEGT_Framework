@@ -1,0 +1,47 @@
+{
+  "id": "ch5_s2",
+  "name": "Shapley Value Reward with Adversarial Punishment",
+  "num_clients": 20,
+  "update_frequency": 1,
+  "initial_distribution": [
+    0.1,
+    0.1,
+    0.8
+  ],
+  "simulator_config": {
+    "replicator": {
+      "learning_rate": 0.05,
+      "noise_level": 0.02
+    },
+    "honest_quality": 0.9,
+    "withholding_quality": 0.5,
+    "adversarial_quality": 0.1
+  },
+  "reward_mechanism": "shapley",
+  "reward_config": {
+    "initial_pool": 1500.0,
+    "samples": 150,
+    "strategy_weights": [
+      1.0,
+      0.6,
+      0.1
+    ]
+  },
+  "cost_mechanism": "computational",
+  "cost_config": {
+    "base_costs": {
+      "honest": 10.0,
+      "withholding": 5.0,
+      "adversarial": 1.0
+    },
+    "scaling_factor": 0.25
+  },
+  "punishment_mechanism": "adversarial",
+  "punishment_config": {
+    "penalty_strength": 10.0,
+    "detection_threshold": 0.4,
+    "gradient_variance_weight": 0.7
+  },
+  "description": "Combines Shapley value-based rewards with strong punishment for adversarial behavior to create a fair and cooperative environment",
+  "hypothesis": "With Shapley value rewards that fairly distribute benefits based on actual contribution, combined with strong punishment for adversarial behavior, we expect honest strategy to dominate quickly. The system should reach a stable equilibrium where honesty is the optimal strategy due to both fair rewards and strong disincentives for adversarial behavior."
+}

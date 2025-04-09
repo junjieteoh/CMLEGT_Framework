@@ -1,0 +1,3996 @@
+{
+  "train_loss": [
+    2.294072645681876,
+    2.24526047706604,
+    2.116689132792609,
+    1.8364320689981635
+  ],
+  "test_acc": [
+    0.3049,
+    0.47,
+    0.6278,
+    0.7363
+  ],
+  "honest_ratio": [
+    0.4285714285714286,
+    0.37337236903610255,
+    0.3043036497367646,
+    0.24202488577538295
+  ],
+  "withholding_ratio": [
+    0.28571428571428575,
+    0.27749370403363566,
+    0.2668888723853404,
+    0.27253665476834527
+  ],
+  "adversarial_ratio": [
+    0.28571428571428575,
+    0.34913392693026185,
+    0.4288074778778949,
+    0.48543845945627184
+  ],
+  "honest_reward": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "withholding_reward": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "adversarial_reward": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "honest_cost": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "withholding_cost": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "adversarial_cost": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "data_quality_score": [
+    0.45112034806842577,
+    0.3551882731791048,
+    0.2946303237848427,
+    0.21546702739307266
+  ],
+  "total_contributed_samples": [
+    3393,
+    3441,
+    3528,
+    3487
+  ],
+  "corrupted_samples": [
+    338,
+    437,
+    472,
+    576
+  ],
+  "overall_corruption_rate": [
+    0.09961685823754789,
+    0.12699796570764313,
+    0.13378684807256236,
+    0.16518497275595068
+  ],
+  "honest_contribution_rate": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "withholding_contribution_rate": [
+    0.4481818181818182,
+    0.4918181818181818,
+    0.528,
+    0.487
+  ],
+  "adversarial_contribution_rate": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "adversarial_corruption_rate": [
+    0.2816666666666667,
+    0.29133333333333333,
+    0.26222222222222225,
+    0.2742857142857143
+  ],
+  "client_contributions": [
+    {
+      "epoch": 1,
+      "summary": {
+        "total_clients": 40,
+        "total_samples": 3393,
+        "corrupted_samples": 338,
+        "corruption_rate": 0.09961685823754789,
+        "honest_clients": 17,
+        "withholding_clients": 11,
+        "adversarial_clients": 12,
+        "strategy_summary": {
+          "honest": {
+            "clients": 17,
+            "contribution_rate": 1.0,
+            "corruption_rate": 0,
+            "total_samples": 1700
+          },
+          "withholding": {
+            "clients": 11,
+            "contribution_rate": 0.4481818181818182,
+            "corruption_rate": 0,
+            "total_samples": 493
+          },
+          "adversarial": {
+            "clients": 12,
+            "contribution_rate": 1.0,
+            "corruption_rate": 0.2816666666666667,
+            "total_samples": 1200
+          }
+        },
+        "data_quality_score": 0.45112034806842577,
+        "client_details": [
+          {
+            "client_id": 0,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 1,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 2,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 3,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 4,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 30,
+            "corruption_rate": 0.30682797540594164,
+            "noise_level": 0.1907447412658413
+          },
+          {
+            "client_id": 5,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 6,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 31,
+            "withholding_rate": 0.681526371008432,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 7,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 8,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 37,
+            "withholding_rate": 0.6264093013680354,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 9,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 21,
+            "corruption_rate": 0.2141714699777307,
+            "noise_level": 0.2304289787997044
+          },
+          {
+            "client_id": 10,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 30,
+            "corruption_rate": 0.30811758762006103,
+            "noise_level": 0.2858036663411028
+          },
+          {
+            "client_id": 11,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 12,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 38,
+            "corruption_rate": 0.3871468574889647,
+            "noise_level": 0.29476740452745775
+          },
+          {
+            "client_id": 13,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 14,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 40,
+            "withholding_rate": 0.5997910444574157,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 15,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 16,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 20,
+            "corruption_rate": 0.20765143947065257,
+            "noise_level": 0.2231029831902761
+          },
+          {
+            "client_id": 17,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 57,
+            "withholding_rate": 0.4203799498262261,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 18,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 38,
+            "corruption_rate": 0.38349400289108804,
+            "noise_level": 0.28138577251735364
+          },
+          {
+            "client_id": 19,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 31,
+            "corruption_rate": 0.3183785551255822,
+            "noise_level": 0.1137913473039281
+          },
+          {
+            "client_id": 20,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 21,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 32,
+            "corruption_rate": 0.32950865081136105,
+            "noise_level": 0.2106945910020499
+          },
+          {
+            "client_id": 22,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 26,
+            "corruption_rate": 0.26875147882924055,
+            "noise_level": 0.12281742814498492
+          },
+          {
+            "client_id": 23,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 24,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 67,
+            "withholding_rate": 0.32613737404557297,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 25,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 26,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 36,
+            "withholding_rate": 0.6306524638600238,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 27,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 30,
+            "withholding_rate": 0.6987781899730253,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 28,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 53,
+            "withholding_rate": 0.4652990283197286,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 29,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 30,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 56,
+            "withholding_rate": 0.4359500972457182,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 31,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 32,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 42,
+            "withholding_rate": 0.5770818394347528,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 33,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 34,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 27,
+            "corruption_rate": 0.2765088597233748,
+            "noise_level": 0.24647195358784765
+          },
+          {
+            "client_id": 35,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 21,
+            "corruption_rate": 0.2180266751492438,
+            "noise_level": 0.28305118174863186
+          },
+          {
+            "client_id": 36,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 37,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 38,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 24,
+            "corruption_rate": 0.244273440014798,
+            "noise_level": 0.23255374761239558
+          },
+          {
+            "client_id": 39,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 44,
+            "withholding_rate": 0.556681786893287,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          }
+        ]
+      },
+      "client_details": [
+        {
+          "client_id": 0,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 1,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 2,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 3,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 4,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 30,
+          "corruption_rate": 0.30682797540594164,
+          "noise_level": 0.1907447412658413
+        },
+        {
+          "client_id": 5,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 6,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 31,
+          "withholding_rate": 0.681526371008432,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 7,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 8,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 37,
+          "withholding_rate": 0.6264093013680354,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 9,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 21,
+          "corruption_rate": 0.2141714699777307,
+          "noise_level": 0.2304289787997044
+        },
+        {
+          "client_id": 10,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 30,
+          "corruption_rate": 0.30811758762006103,
+          "noise_level": 0.2858036663411028
+        },
+        {
+          "client_id": 11,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 12,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 38,
+          "corruption_rate": 0.3871468574889647,
+          "noise_level": 0.29476740452745775
+        },
+        {
+          "client_id": 13,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 14,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 40,
+          "withholding_rate": 0.5997910444574157,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 15,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 16,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 20,
+          "corruption_rate": 0.20765143947065257,
+          "noise_level": 0.2231029831902761
+        },
+        {
+          "client_id": 17,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 57,
+          "withholding_rate": 0.4203799498262261,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 18,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 38,
+          "corruption_rate": 0.38349400289108804,
+          "noise_level": 0.28138577251735364
+        },
+        {
+          "client_id": 19,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 31,
+          "corruption_rate": 0.3183785551255822,
+          "noise_level": 0.1137913473039281
+        },
+        {
+          "client_id": 20,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 21,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 32,
+          "corruption_rate": 0.32950865081136105,
+          "noise_level": 0.2106945910020499
+        },
+        {
+          "client_id": 22,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 26,
+          "corruption_rate": 0.26875147882924055,
+          "noise_level": 0.12281742814498492
+        },
+        {
+          "client_id": 23,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 24,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 67,
+          "withholding_rate": 0.32613737404557297,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 25,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 26,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 36,
+          "withholding_rate": 0.6306524638600238,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 27,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 30,
+          "withholding_rate": 0.6987781899730253,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 28,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 53,
+          "withholding_rate": 0.4652990283197286,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 29,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 30,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 56,
+          "withholding_rate": 0.4359500972457182,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 31,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 32,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 42,
+          "withholding_rate": 0.5770818394347528,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 33,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 34,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 27,
+          "corruption_rate": 0.2765088597233748,
+          "noise_level": 0.24647195358784765
+        },
+        {
+          "client_id": 35,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 21,
+          "corruption_rate": 0.2180266751492438,
+          "noise_level": 0.28305118174863186
+        },
+        {
+          "client_id": 36,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 37,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 38,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 24,
+          "corruption_rate": 0.244273440014798,
+          "noise_level": 0.23255374761239558
+        },
+        {
+          "client_id": 39,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 44,
+          "withholding_rate": 0.556681786893287,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        }
+      ]
+    },
+    {
+      "epoch": 2,
+      "summary": {
+        "total_clients": 40,
+        "total_samples": 3441,
+        "corrupted_samples": 437,
+        "corruption_rate": 0.12699796570764313,
+        "honest_clients": 14,
+        "withholding_clients": 11,
+        "adversarial_clients": 15,
+        "strategy_summary": {
+          "honest": {
+            "clients": 14,
+            "contribution_rate": 1.0,
+            "corruption_rate": 0,
+            "total_samples": 1400
+          },
+          "withholding": {
+            "clients": 11,
+            "contribution_rate": 0.4918181818181818,
+            "corruption_rate": 0,
+            "total_samples": 541
+          },
+          "adversarial": {
+            "clients": 15,
+            "contribution_rate": 1.0,
+            "corruption_rate": 0.29133333333333333,
+            "total_samples": 1500
+          }
+        },
+        "data_quality_score": 0.3551882731791048,
+        "client_details": [
+          {
+            "client_id": 0,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 21,
+            "corruption_rate": 0.2198356923358084,
+            "noise_level": 0.2936797250622949
+          },
+          {
+            "client_id": 1,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 32,
+            "corruption_rate": 0.32008201824493543,
+            "noise_level": 0.16903457109617237
+          },
+          {
+            "client_id": 2,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 3,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 65,
+            "withholding_rate": 0.3443559088803722,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 4,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 21,
+            "corruption_rate": 0.21572941749657198,
+            "noise_level": 0.19234849728929082
+          },
+          {
+            "client_id": 5,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 6,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 68,
+            "withholding_rate": 0.31504289822843684,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 7,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 31,
+            "corruption_rate": 0.319008245630315,
+            "noise_level": 0.20549195769229653
+          },
+          {
+            "client_id": 8,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 9,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 10,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 39,
+            "corruption_rate": 0.39325363064118946,
+            "noise_level": 0.1481128477613087
+          },
+          {
+            "client_id": 11,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 53,
+            "withholding_rate": 0.4666270380834159,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 12,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 13,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 51,
+            "withholding_rate": 0.48935990707073734,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 14,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 32,
+            "corruption_rate": 0.3278938620984961,
+            "noise_level": 0.2782663364707778
+          },
+          {
+            "client_id": 15,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 35,
+            "withholding_rate": 0.6405448203012503,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 16,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 17,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 18,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 29,
+            "corruption_rate": 0.29316663992421177,
+            "noise_level": 0.19685022602147184
+          },
+          {
+            "client_id": 19,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 24,
+            "corruption_rate": 0.24080460271267976,
+            "noise_level": 0.15627126767470567
+          },
+          {
+            "client_id": 20,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 31,
+            "corruption_rate": 0.31950375420203725,
+            "noise_level": 0.24174796128708756
+          },
+          {
+            "client_id": 21,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 25,
+            "corruption_rate": 0.2599581129474828,
+            "noise_level": 0.1919327064039173
+          },
+          {
+            "client_id": 22,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 23,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 48,
+            "withholding_rate": 0.5132508258292884,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 24,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 25,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 26,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 32,
+            "withholding_rate": 0.673209573513323,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 27,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 28,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 29,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 44,
+            "withholding_rate": 0.5583591671561079,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 30,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 35,
+            "corruption_rate": 0.35815353288505114,
+            "noise_level": 0.16562352754844128
+          },
+          {
+            "client_id": 31,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 49,
+            "withholding_rate": 0.5081366164739147,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 32,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 33,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 54,
+            "withholding_rate": 0.45025821352079504,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 34,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 30,
+            "corruption_rate": 0.3007791697881869,
+            "noise_level": 0.24491694246144038
+          },
+          {
+            "client_id": 35,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 23,
+            "corruption_rate": 0.23809632368614767,
+            "noise_level": 0.10914308959621895
+          },
+          {
+            "client_id": 36,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 37,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 37,
+            "corruption_rate": 0.3728169682938965,
+            "noise_level": 0.15346494733532717
+          },
+          {
+            "client_id": 38,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 27,
+            "corruption_rate": 0.2793792844996143,
+            "noise_level": 0.25809961704682993
+          },
+          {
+            "client_id": 39,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 42,
+            "withholding_rate": 0.5757242164735901,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          }
+        ]
+      },
+      "client_details": [
+        {
+          "client_id": 0,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 21,
+          "corruption_rate": 0.2198356923358084,
+          "noise_level": 0.2936797250622949
+        },
+        {
+          "client_id": 1,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 32,
+          "corruption_rate": 0.32008201824493543,
+          "noise_level": 0.16903457109617237
+        },
+        {
+          "client_id": 2,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 3,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 65,
+          "withholding_rate": 0.3443559088803722,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 4,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 21,
+          "corruption_rate": 0.21572941749657198,
+          "noise_level": 0.19234849728929082
+        },
+        {
+          "client_id": 5,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 6,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 68,
+          "withholding_rate": 0.31504289822843684,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 7,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 31,
+          "corruption_rate": 0.319008245630315,
+          "noise_level": 0.20549195769229653
+        },
+        {
+          "client_id": 8,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 9,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 10,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 39,
+          "corruption_rate": 0.39325363064118946,
+          "noise_level": 0.1481128477613087
+        },
+        {
+          "client_id": 11,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 53,
+          "withholding_rate": 0.4666270380834159,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 12,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 13,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 51,
+          "withholding_rate": 0.48935990707073734,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 14,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 32,
+          "corruption_rate": 0.3278938620984961,
+          "noise_level": 0.2782663364707778
+        },
+        {
+          "client_id": 15,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 35,
+          "withholding_rate": 0.6405448203012503,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 16,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 17,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 18,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 29,
+          "corruption_rate": 0.29316663992421177,
+          "noise_level": 0.19685022602147184
+        },
+        {
+          "client_id": 19,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 24,
+          "corruption_rate": 0.24080460271267976,
+          "noise_level": 0.15627126767470567
+        },
+        {
+          "client_id": 20,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 31,
+          "corruption_rate": 0.31950375420203725,
+          "noise_level": 0.24174796128708756
+        },
+        {
+          "client_id": 21,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 25,
+          "corruption_rate": 0.2599581129474828,
+          "noise_level": 0.1919327064039173
+        },
+        {
+          "client_id": 22,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 23,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 48,
+          "withholding_rate": 0.5132508258292884,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 24,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 25,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 26,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 32,
+          "withholding_rate": 0.673209573513323,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 27,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 28,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 29,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 44,
+          "withholding_rate": 0.5583591671561079,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 30,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 35,
+          "corruption_rate": 0.35815353288505114,
+          "noise_level": 0.16562352754844128
+        },
+        {
+          "client_id": 31,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 49,
+          "withholding_rate": 0.5081366164739147,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 32,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 33,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 54,
+          "withholding_rate": 0.45025821352079504,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 34,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 30,
+          "corruption_rate": 0.3007791697881869,
+          "noise_level": 0.24491694246144038
+        },
+        {
+          "client_id": 35,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 23,
+          "corruption_rate": 0.23809632368614767,
+          "noise_level": 0.10914308959621895
+        },
+        {
+          "client_id": 36,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 37,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 37,
+          "corruption_rate": 0.3728169682938965,
+          "noise_level": 0.15346494733532717
+        },
+        {
+          "client_id": 38,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 27,
+          "corruption_rate": 0.2793792844996143,
+          "noise_level": 0.25809961704682993
+        },
+        {
+          "client_id": 39,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 42,
+          "withholding_rate": 0.5757242164735901,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        }
+      ]
+    },
+    {
+      "epoch": 3,
+      "summary": {
+        "total_clients": 40,
+        "total_samples": 3528,
+        "corrupted_samples": 472,
+        "corruption_rate": 0.13378684807256236,
+        "honest_clients": 12,
+        "withholding_clients": 10,
+        "adversarial_clients": 18,
+        "strategy_summary": {
+          "honest": {
+            "clients": 12,
+            "contribution_rate": 1.0,
+            "corruption_rate": 0,
+            "total_samples": 1200
+          },
+          "withholding": {
+            "clients": 10,
+            "contribution_rate": 0.528,
+            "corruption_rate": 0,
+            "total_samples": 528
+          },
+          "adversarial": {
+            "clients": 18,
+            "contribution_rate": 1.0,
+            "corruption_rate": 0.26222222222222225,
+            "total_samples": 1800
+          }
+        },
+        "data_quality_score": 0.2946303237848427,
+        "client_details": [
+          {
+            "client_id": 0,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 25,
+            "corruption_rate": 0.25368135942984216,
+            "noise_level": 0.23634252662601754
+          },
+          {
+            "client_id": 1,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 2,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 31,
+            "corruption_rate": 0.31001983139949457,
+            "noise_level": 0.2841095089342115
+          },
+          {
+            "client_id": 3,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 4,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 21,
+            "corruption_rate": 0.21717095988403162,
+            "noise_level": 0.18991500227481595
+          },
+          {
+            "client_id": 5,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 52,
+            "withholding_rate": 0.4718211364413374,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 6,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 30,
+            "corruption_rate": 0.3074758539996042,
+            "noise_level": 0.1878139806766666
+          },
+          {
+            "client_id": 7,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 30,
+            "withholding_rate": 0.6975830737274468,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 8,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 64,
+            "withholding_rate": 0.35423556257120364,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 9,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 28,
+            "corruption_rate": 0.28825718977528536,
+            "noise_level": 0.22206384785476357
+          },
+          {
+            "client_id": 10,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 23,
+            "corruption_rate": 0.23282330995812928,
+            "noise_level": 0.2867848803348432
+          },
+          {
+            "client_id": 11,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 12,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 64,
+            "withholding_rate": 0.3527931522930808,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 13,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 34,
+            "corruption_rate": 0.34029992224477323,
+            "noise_level": 0.2547054959011771
+          },
+          {
+            "client_id": 14,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 26,
+            "corruption_rate": 0.2621395548094823,
+            "noise_level": 0.21837915266725527
+          },
+          {
+            "client_id": 15,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 16,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 21,
+            "corruption_rate": 0.21245657270399165,
+            "noise_level": 0.1296647594738199
+          },
+          {
+            "client_id": 17,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 41,
+            "withholding_rate": 0.5844629593140447,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 18,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 19,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 23,
+            "corruption_rate": 0.2335978417458113,
+            "noise_level": 0.17767625491386008
+          },
+          {
+            "client_id": 20,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 23,
+            "corruption_rate": 0.23596317473957384,
+            "noise_level": 0.16634679871484068
+          },
+          {
+            "client_id": 21,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 32,
+            "corruption_rate": 0.3228269535324937,
+            "noise_level": 0.10962949154665634
+          },
+          {
+            "client_id": 22,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 28,
+            "corruption_rate": 0.2876440282651551,
+            "noise_level": 0.11090097034101028
+          },
+          {
+            "client_id": 23,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 24,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 25,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 26,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 69,
+            "withholding_rate": 0.30152622886778696,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 27,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 65,
+            "withholding_rate": 0.3481127499021733,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 28,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 20,
+            "corruption_rate": 0.20985819510482226,
+            "noise_level": 0.2750361112250833
+          },
+          {
+            "client_id": 29,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 24,
+            "corruption_rate": 0.24014535522010427,
+            "noise_level": 0.14475400634466176
+          },
+          {
+            "client_id": 30,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 45,
+            "withholding_rate": 0.5433375531586574,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 31,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 36,
+            "corruption_rate": 0.3620057949424286,
+            "noise_level": 0.16268281435146775
+          },
+          {
+            "client_id": 32,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 33,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 34,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 35,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 36,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 67,
+            "withholding_rate": 0.3232054352900788,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 37,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 27,
+            "corruption_rate": 0.27331829027996973,
+            "noise_level": 0.1661207232393403
+          },
+          {
+            "client_id": 38,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 20,
+            "corruption_rate": 0.20054759981147854,
+            "noise_level": 0.1801555028561506
+          },
+          {
+            "client_id": 39,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 31,
+            "withholding_rate": 0.6849239720599015,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          }
+        ]
+      },
+      "client_details": [
+        {
+          "client_id": 0,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 25,
+          "corruption_rate": 0.25368135942984216,
+          "noise_level": 0.23634252662601754
+        },
+        {
+          "client_id": 1,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 2,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 31,
+          "corruption_rate": 0.31001983139949457,
+          "noise_level": 0.2841095089342115
+        },
+        {
+          "client_id": 3,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 4,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 21,
+          "corruption_rate": 0.21717095988403162,
+          "noise_level": 0.18991500227481595
+        },
+        {
+          "client_id": 5,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 52,
+          "withholding_rate": 0.4718211364413374,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 6,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 30,
+          "corruption_rate": 0.3074758539996042,
+          "noise_level": 0.1878139806766666
+        },
+        {
+          "client_id": 7,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 30,
+          "withholding_rate": 0.6975830737274468,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 8,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 64,
+          "withholding_rate": 0.35423556257120364,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 9,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 28,
+          "corruption_rate": 0.28825718977528536,
+          "noise_level": 0.22206384785476357
+        },
+        {
+          "client_id": 10,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 23,
+          "corruption_rate": 0.23282330995812928,
+          "noise_level": 0.2867848803348432
+        },
+        {
+          "client_id": 11,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 12,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 64,
+          "withholding_rate": 0.3527931522930808,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 13,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 34,
+          "corruption_rate": 0.34029992224477323,
+          "noise_level": 0.2547054959011771
+        },
+        {
+          "client_id": 14,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 26,
+          "corruption_rate": 0.2621395548094823,
+          "noise_level": 0.21837915266725527
+        },
+        {
+          "client_id": 15,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 16,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 21,
+          "corruption_rate": 0.21245657270399165,
+          "noise_level": 0.1296647594738199
+        },
+        {
+          "client_id": 17,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 41,
+          "withholding_rate": 0.5844629593140447,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 18,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 19,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 23,
+          "corruption_rate": 0.2335978417458113,
+          "noise_level": 0.17767625491386008
+        },
+        {
+          "client_id": 20,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 23,
+          "corruption_rate": 0.23596317473957384,
+          "noise_level": 0.16634679871484068
+        },
+        {
+          "client_id": 21,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 32,
+          "corruption_rate": 0.3228269535324937,
+          "noise_level": 0.10962949154665634
+        },
+        {
+          "client_id": 22,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 28,
+          "corruption_rate": 0.2876440282651551,
+          "noise_level": 0.11090097034101028
+        },
+        {
+          "client_id": 23,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 24,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 25,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 26,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 69,
+          "withholding_rate": 0.30152622886778696,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 27,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 65,
+          "withholding_rate": 0.3481127499021733,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 28,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 20,
+          "corruption_rate": 0.20985819510482226,
+          "noise_level": 0.2750361112250833
+        },
+        {
+          "client_id": 29,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 24,
+          "corruption_rate": 0.24014535522010427,
+          "noise_level": 0.14475400634466176
+        },
+        {
+          "client_id": 30,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 45,
+          "withholding_rate": 0.5433375531586574,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 31,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 36,
+          "corruption_rate": 0.3620057949424286,
+          "noise_level": 0.16268281435146775
+        },
+        {
+          "client_id": 32,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 33,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 34,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 35,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 36,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 67,
+          "withholding_rate": 0.3232054352900788,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 37,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 27,
+          "corruption_rate": 0.27331829027996973,
+          "noise_level": 0.1661207232393403
+        },
+        {
+          "client_id": 38,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 20,
+          "corruption_rate": 0.20054759981147854,
+          "noise_level": 0.1801555028561506
+        },
+        {
+          "client_id": 39,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 31,
+          "withholding_rate": 0.6849239720599015,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        }
+      ]
+    },
+    {
+      "epoch": 4,
+      "summary": {
+        "total_clients": 40,
+        "total_samples": 3487,
+        "corrupted_samples": 576,
+        "corruption_rate": 0.16518497275595068,
+        "honest_clients": 9,
+        "withholding_clients": 10,
+        "adversarial_clients": 21,
+        "strategy_summary": {
+          "honest": {
+            "clients": 9,
+            "contribution_rate": 1.0,
+            "corruption_rate": 0,
+            "total_samples": 900
+          },
+          "withholding": {
+            "clients": 10,
+            "contribution_rate": 0.487,
+            "corruption_rate": 0,
+            "total_samples": 487
+          },
+          "adversarial": {
+            "clients": 21,
+            "contribution_rate": 1.0,
+            "corruption_rate": 0.2742857142857143,
+            "total_samples": 2100
+          }
+        },
+        "data_quality_score": 0.21546702739307266,
+        "client_details": [
+          {
+            "client_id": 0,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 53,
+            "withholding_rate": 0.4613107973846891,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 1,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 2,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 22,
+            "corruption_rate": 0.22126444584992244,
+            "noise_level": 0.2959001520410086
+          },
+          {
+            "client_id": 3,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 38,
+            "corruption_rate": 0.3831820483394199,
+            "noise_level": 0.24769000649956907
+          },
+          {
+            "client_id": 4,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 23,
+            "corruption_rate": 0.23929381635210922,
+            "noise_level": 0.11838911078781329
+          },
+          {
+            "client_id": 5,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 24,
+            "corruption_rate": 0.24423961622029056,
+            "noise_level": 0.142156294987105
+          },
+          {
+            "client_id": 6,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 32,
+            "corruption_rate": 0.32590289678213336,
+            "noise_level": 0.2749533855245556
+          },
+          {
+            "client_id": 7,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 64,
+            "withholding_rate": 0.3565495464898203,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 8,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 9,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 26,
+            "corruption_rate": 0.26264295614685884,
+            "noise_level": 0.1021183366517402
+          },
+          {
+            "client_id": 10,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 24,
+            "corruption_rate": 0.24777616090771828,
+            "noise_level": 0.1811684405101806
+          },
+          {
+            "client_id": 11,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 37,
+            "withholding_rate": 0.6268947060934287,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 12,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 13,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 32,
+            "corruption_rate": 0.325908084977631,
+            "noise_level": 0.28768432557925605
+          },
+          {
+            "client_id": 14,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 50,
+            "withholding_rate": 0.492849379150735,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 15,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 35,
+            "corruption_rate": 0.3567576833927075,
+            "noise_level": 0.247385108029279
+          },
+          {
+            "client_id": 16,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 17,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 21,
+            "corruption_rate": 0.21372343438741181,
+            "noise_level": 0.2267323595116377
+          },
+          {
+            "client_id": 18,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 19,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 39,
+            "corruption_rate": 0.39883960667309515,
+            "noise_level": 0.16508723998308528
+          },
+          {
+            "client_id": 20,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 45,
+            "withholding_rate": 0.5451112385447086,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 21,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 22,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 41,
+            "withholding_rate": 0.5882241318098522,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 23,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 25,
+            "corruption_rate": 0.25730471531115784,
+            "noise_level": 0.2236204343367731
+          },
+          {
+            "client_id": 24,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 21,
+            "corruption_rate": 0.2168622533303986,
+            "noise_level": 0.10211116373552731
+          },
+          {
+            "client_id": 25,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 30,
+            "corruption_rate": 0.30466324808505146,
+            "noise_level": 0.12500784056662909
+          },
+          {
+            "client_id": 26,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 52,
+            "withholding_rate": 0.4753666541788192,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 27,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 65,
+            "withholding_rate": 0.34885660485420444,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 28,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 29,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 30,
+            "corruption_rate": 0.30872410885641677,
+            "noise_level": 0.2860422073618102
+          },
+          {
+            "client_id": 30,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 24,
+            "corruption_rate": 0.24174761869870032,
+            "noise_level": 0.2804969941305443
+          },
+          {
+            "client_id": 31,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 31,
+            "corruption_rate": 0.31001626847902386,
+            "noise_level": 0.11569547918457078
+          },
+          {
+            "client_id": 32,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 33,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 21,
+            "corruption_rate": 0.2111845417646639,
+            "noise_level": 0.17983825990938837
+          },
+          {
+            "client_id": 34,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 21,
+            "corruption_rate": 0.21701579749364708,
+            "noise_level": 0.2515467565186124
+          },
+          {
+            "client_id": 35,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 35,
+            "withholding_rate": 0.6411056580716801,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 36,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 35,
+            "corruption_rate": 0.3578376989014844,
+            "noise_level": 0.14135145493220186
+          },
+          {
+            "client_id": 37,
+            "strategy": "honest",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          },
+          {
+            "client_id": 38,
+            "strategy": "adversarial",
+            "total_samples": 100,
+            "contributed_samples": 100,
+            "withholding_rate": 0.0,
+            "corrupted_samples": 22,
+            "corruption_rate": 0.22771530535970733,
+            "noise_level": 0.20046491749009226
+          },
+          {
+            "client_id": 39,
+            "strategy": "withholding",
+            "total_samples": 100,
+            "contributed_samples": 45,
+            "withholding_rate": 0.5418847038411005,
+            "corrupted_samples": 0,
+            "corruption_rate": 0.0,
+            "noise_level": 0.0
+          }
+        ]
+      },
+      "client_details": [
+        {
+          "client_id": 0,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 53,
+          "withholding_rate": 0.4613107973846891,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 1,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 2,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 22,
+          "corruption_rate": 0.22126444584992244,
+          "noise_level": 0.2959001520410086
+        },
+        {
+          "client_id": 3,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 38,
+          "corruption_rate": 0.3831820483394199,
+          "noise_level": 0.24769000649956907
+        },
+        {
+          "client_id": 4,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 23,
+          "corruption_rate": 0.23929381635210922,
+          "noise_level": 0.11838911078781329
+        },
+        {
+          "client_id": 5,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 24,
+          "corruption_rate": 0.24423961622029056,
+          "noise_level": 0.142156294987105
+        },
+        {
+          "client_id": 6,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 32,
+          "corruption_rate": 0.32590289678213336,
+          "noise_level": 0.2749533855245556
+        },
+        {
+          "client_id": 7,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 64,
+          "withholding_rate": 0.3565495464898203,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 8,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 9,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 26,
+          "corruption_rate": 0.26264295614685884,
+          "noise_level": 0.1021183366517402
+        },
+        {
+          "client_id": 10,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 24,
+          "corruption_rate": 0.24777616090771828,
+          "noise_level": 0.1811684405101806
+        },
+        {
+          "client_id": 11,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 37,
+          "withholding_rate": 0.6268947060934287,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 12,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 13,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 32,
+          "corruption_rate": 0.325908084977631,
+          "noise_level": 0.28768432557925605
+        },
+        {
+          "client_id": 14,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 50,
+          "withholding_rate": 0.492849379150735,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 15,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 35,
+          "corruption_rate": 0.3567576833927075,
+          "noise_level": 0.247385108029279
+        },
+        {
+          "client_id": 16,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 17,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 21,
+          "corruption_rate": 0.21372343438741181,
+          "noise_level": 0.2267323595116377
+        },
+        {
+          "client_id": 18,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 19,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 39,
+          "corruption_rate": 0.39883960667309515,
+          "noise_level": 0.16508723998308528
+        },
+        {
+          "client_id": 20,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 45,
+          "withholding_rate": 0.5451112385447086,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 21,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 22,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 41,
+          "withholding_rate": 0.5882241318098522,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 23,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 25,
+          "corruption_rate": 0.25730471531115784,
+          "noise_level": 0.2236204343367731
+        },
+        {
+          "client_id": 24,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 21,
+          "corruption_rate": 0.2168622533303986,
+          "noise_level": 0.10211116373552731
+        },
+        {
+          "client_id": 25,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 30,
+          "corruption_rate": 0.30466324808505146,
+          "noise_level": 0.12500784056662909
+        },
+        {
+          "client_id": 26,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 52,
+          "withholding_rate": 0.4753666541788192,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 27,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 65,
+          "withholding_rate": 0.34885660485420444,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 28,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 29,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 30,
+          "corruption_rate": 0.30872410885641677,
+          "noise_level": 0.2860422073618102
+        },
+        {
+          "client_id": 30,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 24,
+          "corruption_rate": 0.24174761869870032,
+          "noise_level": 0.2804969941305443
+        },
+        {
+          "client_id": 31,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 31,
+          "corruption_rate": 0.31001626847902386,
+          "noise_level": 0.11569547918457078
+        },
+        {
+          "client_id": 32,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 33,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 21,
+          "corruption_rate": 0.2111845417646639,
+          "noise_level": 0.17983825990938837
+        },
+        {
+          "client_id": 34,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 21,
+          "corruption_rate": 0.21701579749364708,
+          "noise_level": 0.2515467565186124
+        },
+        {
+          "client_id": 35,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 35,
+          "withholding_rate": 0.6411056580716801,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 36,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 35,
+          "corruption_rate": 0.3578376989014844,
+          "noise_level": 0.14135145493220186
+        },
+        {
+          "client_id": 37,
+          "strategy": "honest",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        },
+        {
+          "client_id": 38,
+          "strategy": "adversarial",
+          "total_samples": 100,
+          "contributed_samples": 100,
+          "withholding_rate": 0.0,
+          "corrupted_samples": 22,
+          "corruption_rate": 0.22771530535970733,
+          "noise_level": 0.20046491749009226
+        },
+        {
+          "client_id": 39,
+          "strategy": "withholding",
+          "total_samples": 100,
+          "contributed_samples": 45,
+          "withholding_rate": 0.5418847038411005,
+          "corrupted_samples": 0,
+          "corruption_rate": 0.0,
+          "noise_level": 0.0
+        }
+      ]
+    }
+  ],
+  "strategy_distribution": [
+    [
+      0.4285714285714286,
+      0.28571428571428575,
+      0.28571428571428575
+    ],
+    [
+      0.4285714285714286,
+      0.28571428571428575,
+      0.28571428571428575
+    ],
+    [
+      0.37337236903610255,
+      0.27749370403363566,
+      0.34913392693026185
+    ],
+    [
+      0.3043036497367646,
+      0.2668888723853404,
+      0.4288074778778949
+    ],
+    [
+      0.24202488577538295,
+      0.27253665476834527,
+      0.48543845945627184
+    ]
+  ],
+  "timestamp": [
+    1744165255.1688042,
+    1744165257.2529018,
+    1744165260.43183,
+    1744165263.821602,
+    1744165268.1815119
+  ],
+  "metrics": [
+    {
+      "accuracy": 0.11995284409077513,
+      "loss": 2.294072645681876,
+      "val_accuracy": 0.3049,
+      "val_loss": 2.2594424962997435,
+      "gradient_variance": 0.0003886808124688266,
+      "epoch": 0
+    },
+    {
+      "accuracy": 0.19035164196454518,
+      "loss": 2.24526047706604,
+      "val_accuracy": 0.47,
+      "val_loss": 2.142540168762207,
+      "gradient_variance": 0.0006573061880317255,
+      "epoch": 1,
+      "accuracy_delta": 0.07039879787377006,
+      "accuracy_drop": 0,
+      "loss_delta": -0.048812168615835816,
+      "loss_increase": 0
+    },
+    {
+      "accuracy": 0.30839002267573695,
+      "loss": 2.116689132792609,
+      "val_accuracy": 0.6278,
+      "val_loss": 1.7163894057273865,
+      "gradient_variance": 0.006631241911425069,
+      "epoch": 2,
+      "accuracy_delta": 0.11803838071119177,
+      "accuracy_drop": 0,
+      "loss_delta": -0.1285713442734311,
+      "loss_increase": 0
+    },
+    {
+      "accuracy": 0.42873530255233727,
+      "loss": 1.8364320689981635,
+      "val_accuracy": 0.7363,
+      "val_loss": 1.0294311225414277,
+      "gradient_variance": 0.01392674658257441,
+      "epoch": 3,
+      "accuracy_delta": 0.12034527987660032,
+      "accuracy_drop": 0,
+      "loss_delta": -0.2802570637944455,
+      "loss_increase": 0
+    }
+  ],
+  "rewards": [
+    [
+      0.35270978649237616,
+      0.05803657128848173,
+      0.004061615470275483,
+      0.1584310554298059,
+      0.44159550374643414,
+      0.3874657734570549,
+      0.40041796852841627,
+      -0.018756688925631558,
+      0.19675805552646164,
+      0.22569604356119577,
+      0.3466085945087195,
+      0.06075020594143282,
+      0.01763561589021412,
+      0.3845548885338258,
+      0.3708648599182906,
+      0.44159550374643414,
+      0.396839921996058,
+      0.17408971282417807,
+      0.25712096535464446,
+      0.3435240467113318
+    ],
+    [
+      0.056400740407417965,
+      0.01522468757947478,
+      0.07594843350548988,
+      0.0957085695508397,
+      0.27950490855276766,
+      0.007576693490450119,
+      0.40954359790061406,
+      0.43972530039010665,
+      0.47008635109545366,
+      0.4015343361999223,
+      0.2268704091604977,
+      0.37198009146891914,
+      -0.009246016613574942,
+      0.4624042496021305,
+      0.47123875949129135,
+      0.23222598370921232,
+      0.47123875949129135,
+      0.06416556713221,
+      0.3937143402538177,
+      0.06415423763166804
+    ],
+    [
+      0.21952947420838156,
+      0.27075162763785077,
+      0.44674933387783133,
+      0.4895512306041972,
+      0.4075047434469304,
+      0.033017910039672506,
+      0.22628944317582847,
+      0.1736736146988339,
+      0.06365130639626652,
+      0.4548021330376211,
+      0.24579664080122504,
+      0.03758874060941481,
+      0.37247435237507953,
+      0.42132442714318935,
+      0.42515153926648297,
+      0.4025828239260053,
+      0.04118850780313322,
+      0.06895168053804786,
+      0.1417380056198158,
+      0.057682464794192145
+    ],
+    [
+      0.3131070364301992,
+      0.5042377462871026,
+      0.027303832598787103,
+      0.32104980003217204,
+      0.5349007700583462,
+      0.21715382805993932,
+      0.06727164365232294,
+      0.49971961277014726,
+      0.5964123305102551,
+      0.25689364621749006,
+      0.16053174466603318,
+      0.26546632119792074,
+      0.042679783199756294,
+      0.11417042035018164,
+      0.48910783876474373,
+      0.07727504065278124,
+      0.3970677160206102,
+      -0.03824425573755422,
+      0.07457891455028917,
+      0.07931622971847589
+    ]
+  ],
+  "costs": [
+    [
+      10.0,
+      1.0,
+      1.0,
+      5.0,
+      10.0,
+      10.0,
+      10.0,
+      1.0,
+      5.0,
+      5.0,
+      10.0,
+      1.0,
+      1.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      5.0,
+      5.0,
+      10.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      5.0,
+      1.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      5.0,
+      10.0,
+      1.0,
+      10.0,
+      10.0,
+      5.0,
+      10.0,
+      1.0,
+      10.0,
+      1.0
+    ],
+    [
+      5.0,
+      5.0,
+      10.0,
+      10.0,
+      10.0,
+      1.0,
+      5.0,
+      5.0,
+      1.0,
+      10.0,
+      5.0,
+      1.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      5.0,
+      10.0,
+      1.0,
+      5.0,
+      10.0,
+      5.0,
+      1.0,
+      10.0,
+      10.0,
+      5.0,
+      1.0,
+      5.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      5.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  ],
+  "penalties": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "payoffs": [
+    [
+      -9.647290213507624,
+      -0.9419634287115183,
+      -0.9959383845297245,
+      -4.841568944570194,
+      -9.558404496253566,
+      -9.612534226542945,
+      -9.599582031471584,
+      -1.0187566889256316,
+      -4.803241944473538,
+      -4.774303956438804,
+      -9.65339140549128,
+      -0.9392497940585671,
+      -0.9823643841097859,
+      -9.615445111466174,
+      -9.62913514008171,
+      -9.558404496253566,
+      -9.603160078003942,
+      -4.825910287175822,
+      -4.742879034645355,
+      -9.656475953288668
+    ],
+    [
+      -0.9435992595925821,
+      -0.9847753124205252,
+      -0.9240515664945101,
+      -0.9042914304491603,
+      -4.720495091447233,
+      -0.9924233065095499,
+      -9.590456402099386,
+      -9.560274699609893,
+      -9.529913648904547,
+      -9.598465663800077,
+      -4.773129590839503,
+      -9.628019908531082,
+      -1.009246016613575,
+      -9.53759575039787,
+      -9.52876124050871,
+      -4.767774016290788,
+      -9.52876124050871,
+      -0.93583443286779,
+      -9.606285659746183,
+      -0.935845762368332
+    ],
+    [
+      -4.7804705257916185,
+      -4.729248372362149,
+      -9.55325066612217,
+      -9.510448769395802,
+      -9.59249525655307,
+      -0.9669820899603275,
+      -4.773710556824171,
+      -4.826326385301166,
+      -0.9363486936037335,
+      -9.54519786696238,
+      -4.754203359198775,
+      -0.9624112593905851,
+      -9.627525647624921,
+      -9.578675572856811,
+      -9.574848460733516,
+      -9.597417176073995,
+      -0.9588114921968668,
+      -0.9310483194619521,
+      -0.8582619943801841,
+      -0.9423175352058079
+    ],
+    [
+      -4.686892963569801,
+      -9.495762253712897,
+      -0.9726961674012129,
+      -4.678950199967828,
+      -9.465099229941654,
+      -4.782846171940061,
+      -0.932728356347677,
+      -9.500280387229854,
+      -9.403587669489745,
+      -4.74310635378251,
+      -0.8394682553339669,
+      -4.734533678802079,
+      -0.9573202168002437,
+      -0.8858295796498183,
+      -9.510892161235256,
+      -0.9227249593472188,
+      -4.60293228397939,
+      -1.0382442557375542,
+      -0.9254210854497108,
+      -0.9206837702815241
+    ]
+  ],
+  "contributions": [
+    [
+      0.7987168879665576,
+      0.1314247332595274,
+      0.009197592447878905,
+      0.3587696298664709,
+      1.0,
+      0.8774223699513465,
+      0.9067528204687924,
+      -0.04247481862134567,
+      0.44556172754748175,
+      0.5110922589709866,
+      0.7849006422577698,
+      0.1375698018345672,
+      0.039936131008119505,
+      0.8708306250206723,
+      0.8398293387770603,
+      1.0,
+      0.8986502775262066,
+      0.39422890710440994,
+      0.5822544912103189,
+      0.7779156350028977
+    ],
+    [
+      0.11968612358691236,
+      0.032307799969404125,
+      0.1611676288840868,
+      0.2030999522495951,
+      0.5931280119116199,
+      0.01607824767773615,
+      0.8690787624148786,
+      0.9331263431403565,
+      0.9975545127122359,
+      0.852082576215471,
+      0.4814341023336183,
+      0.7893665025993972,
+      -0.019620662408067077,
+      0.9812525822394198,
+      1.0,
+      0.49279898784196663,
+      1.0,
+      0.13616360250476342,
+      0.8354880245394876,
+      0.1361395605508414
+    ],
+    [
+      0.4470239796232961,
+      0.5513267433113356,
+      0.909707754934804,
+      0.9968644990532889,
+      0.8297946906122647,
+      0.06723378534022317,
+      0.4607891846867842,
+      0.35364850518678814,
+      0.1296120277064576,
+      0.926105527217989,
+      0.500511345664246,
+      0.07654128666248532,
+      0.7584629257949586,
+      0.8579354677234641,
+      0.865728548347323,
+      0.8197722730778381,
+      0.0838714288333991,
+      0.14040508568145385,
+      0.28861859012105306,
+      0.1174577812831839
+    ],
+    [
+      0.49734861245507833,
+      0.8009463674869312,
+      0.04337022703972281,
+      0.5099651365087641,
+      0.8496524345883801,
+      0.34493365689338673,
+      0.10685629748060274,
+      0.7937696286273895,
+      0.9473592430635182,
+      0.4080575765766197,
+      0.254993440501754,
+      0.42167467076637627,
+      0.06779384837943245,
+      0.18135172173696698,
+      0.7769135683566045,
+      0.12274599346041296,
+      0.6307142754282429,
+      -0.06074832345612277,
+      0.11846338585323044,
+      0.12598827942484236
+    ]
+  ]
+}

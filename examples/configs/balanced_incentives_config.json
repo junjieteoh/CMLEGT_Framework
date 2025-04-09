@@ -1,0 +1,43 @@
+{
+  "num_clients": 100,
+  "update_frequency": 1,
+  "initial_distribution": [
+    0.33,
+    0.33,
+    0.34
+  ],
+  "simulator_config": {
+    "replicator": {
+      "learning_rate": 0.05,
+      "noise_level": 0.02
+    },
+    "honest_quality": 0.7,
+    "withholding_quality": 0.4,
+    "adversarial_quality": 0.1
+  },
+  "reward_mechanism": "adaptive",
+  "reward_config": {
+    "initial_pool": 15.0,
+    "learning_rate": 0.15,
+    "accuracy_threshold": 0.65,
+    "strategy_weights": [
+      1.5,
+      0.8,
+      0.4
+    ]
+  },
+  "cost_mechanism": "computational",
+  "cost_config": {
+    "base_costs": {
+      "honest": 10.0,
+      "withholding": 6.0,
+      "adversarial": 3.0
+    },
+    "scaling_factor": 0.15
+  },
+  "punishment_mechanism": "adversarial",
+  "punishment_config": {
+    "penalty_strength": 2.0,
+    "detection_threshold": 0.7
+  }
+}
